@@ -4,7 +4,7 @@ const Body = () => {
   return (
     <div className='flex flex-col justify-center mt-8'>
         <div className='text-center bg-[#EAECF0] text-[#101828] font-Inter font-medium text-lg py-6 mx-4 md:mx-[9rem] mb-6'><a target='_blank' rel="noreferrer" href='https://twitter.com/Dev_Rahmlad' id='twitter'>Twitter Link</a></div>
-        <div className='text-center bg-[#EAECF0] text-[#101828] font-Inter font-medium text-lg py-6 mx-4 md:mx-[9rem] mb-6 hidden'><a target='_blank' rel="noreferrer" href='app.slack.com/' id='slack'>Slack</a></div>
+        <div className='text-center bg-[#EAECF0] text-[#101828] font-Inter font-medium text-lg py-6 mx-4 md:mx-[9rem] mb-6 hidden'><a target='_blank' rel="noreferrer" href='hng9.slack.com/team/U048M0TU7GA' id='slack'>Slack</a></div>
         <div className='text-center bg-[#EAECF0] text-[#101828] font-Inter font-medium text-lg py-6 mx-4 md:mx-[9rem] mb-6' id='btn__zuri'><a target='_blank' rel="noreferrer" href='training.zuri.team'>Zuri Team</a></div>
         <div className='text-center bg-[#EAECF0] text-[#101828] font-Inter font-medium text-lg py-6 mx-4 md:mx-[9rem] mb-6' id='books'><a target='_blank' rel="noreferrer" href='books.zuri.team'>Zuri Books</a></div>
         <div className='text-center bg-[#EAECF0] text-[#101828] font-Inter font-medium text-lg py-6 mx-4 md:mx-[9rem] mb-6' id='book__python'><a target='_blank' rel="noreferrer" href='https://books.zuri.team/python-for-beginners?ref_id=Rahmlad'>Python Books</a></div>
