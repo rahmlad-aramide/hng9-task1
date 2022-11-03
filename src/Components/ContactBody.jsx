@@ -15,13 +15,13 @@ const ContactBody = () => {
             <form>
                 <div className='grid grid-cols-1 md:grid-cols-2 gap-6'>
                     <div className='flex flex-col'>
-                        <label htmlFor="fname" className='mb-1.5 text-label'>First name</label>
-                        <input name='fname' id='fname' type="text" placeholder='Enter your first name' className='py-2.5 px-3.5 rounded-lg border border-[#D0D5DD] text-primary placeholder:text-placeholder'/>
+                        <label htmlFor="first_name" className='mb-1.5 text-label'>First name</label>
+                        <input name='first_name' id='first_name' type="text" placeholder='Enter your first name' className='py-2.5 px-3.5 rounded-lg border border-[#D0D5DD] text-primary placeholder:text-placeholder'/>
                         <div className="hidden mt-1.5 text-secondary">This is a hint text to help user.</div>
                     </div>
                     <div className='flex flex-col'>
-                        <label htmlFor="lname" className='mb-1.5 text-label'>Last name</label>
-                        <input name='lname' id='lname' type="text" placeholder='Enter your last name' className='py-2.5 px-3.5 rounded-lg border border-[#D0D5DD] text-primary placeholder:text-placeholder'/>
+                        <label htmlFor="last_name" className='mb-1.5 text-label'>Last name</label>
+                        <input name='last_name' id='last_name' type="text" placeholder='Enter your last name' className='py-2.5 px-3.5 rounded-lg border border-[#D0D5DD] text-primary placeholder:text-placeholder'/>
                         <div className="hidden mt-1.5 text-secondary">This is a hint text to help user.</div>
                     </div>
                 </div>
@@ -39,7 +39,7 @@ const ContactBody = () => {
                     <input type="checkbox" id='agree' name='agree' className='border border-[#D0D5DD] mt-[5px] checkbox'/>
                     <label htmlFor="agree" className='mb-1.5 ml-3 text-label'>You agree to providing your data to Abdrahman who may contact you.</label>
                 </div>
-                <button type='submit' onClick={handleSubmit} className='bg-[#1570EF] hover:bg-[#175CD3] focus:bg-[#1570EF] disabled:bg-[#B2DDFF] text-white py-3 flex justify-center rounded-lg w-full mt-8'>Send message</button>
+                <button id="btn__submit" type='submit' onClick={handleSubmit} className='bg-[#1570EF] hover:bg-[#175CD3] focus:bg-[#1570EF] disabled:bg-[#B2DDFF] text-white py-3 flex justify-center rounded-lg w-full mt-8'>Send message</button>
             </form>
         </div>
     </div>
