@@ -4,10 +4,17 @@ module.exports = {
     "./src/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {
+    
     fontFamily: {
       'Inter': ["Inter", "Sans-serif"]
     },
-    extend: {},
+    extend: {
+      colors: {
+        'primary': '#101828',
+        'light': '#EAECF0',
+        'secondary': '#475467',
+      },
+    },
   },
   plugins: [],
 }

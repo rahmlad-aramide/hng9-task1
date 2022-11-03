@@ -1,13 +1,15 @@
+import { Route, Routes } from 'react-router-dom';
 import './App.css';
-import { Body, Footer, Header } from './Components';
+import { Contact, Home } from './pages';
 
 function App() {
   
   return (
     <div className="font-Inter">
-      <Header />
-      <Body />
-      <Footer />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/contact" element={<Contact />} />
+      </Routes>
     </div>
   );
 }
