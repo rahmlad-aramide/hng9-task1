@@ -1,4 +1,5 @@
 import React from "react";
+import {Link} from 'react-router-dom'
 
 const Body = () => {
   return (
@@ -70,6 +71,12 @@ const Body = () => {
         >
           Design Books
         </a>
+      </div>
+      <div
+        className="text-center bg-[#EAECF0] text-[#101828] font-Inter font-medium text-lg py-6 mx-4 md:mx-[9rem]"
+        id="book__design"
+      >
+        <Link to="/contact">Contact</Link>
       </div>
       <div className="flex justify-center mt-6 mb-16 mx-0 md:mx-[112px]">
         <img src="slack.svg" alt="Slack" className="w-6 mr-3 my-6" />
