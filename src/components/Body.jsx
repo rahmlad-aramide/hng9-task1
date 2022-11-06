@@ -75,7 +75,7 @@ const Body = () => {
       
       <div
         className="text-center bg-[#EAECF0] text-[#101828] font-Inter font-medium text-lg py-6 mx-4 md:mx-[9rem]"
-        id="book__design"
+        id="contact"
       >
         <Link to="/contact">Contact</Link>
         
