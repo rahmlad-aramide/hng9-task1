@@ -1,5 +1,5 @@
 import React from "react";
-import {Link} from 'react-router-dom'
+import { Link } from "react-router-dom";
 
 const Body = () => {
   return (
@@ -61,10 +61,10 @@ const Body = () => {
         </a>
       </div>
       <div
-        className="text-center bg-[#EAECF0] text-[#101828] font-Inter font-medium text-lg py-6 mx-4 md:mx-[9rem]"
-        id="book__design"
+        className="text-center bg-[#EAECF0] text-[#101828] font-Inter font-medium text-lg py-6 mx-4 md:mx-[9rem] mb-6"
+        id="pitch"
       >
-        <a
+       <a
           target="_blank"
           rel="noreferrer"
           href="https://books.zuri.team/design-rules"
@@ -72,12 +72,15 @@ const Body = () => {
           Design Books
         </a>
       </div>
+      
       <div
         className="text-center bg-[#EAECF0] text-[#101828] font-Inter font-medium text-lg py-6 mx-4 md:mx-[9rem]"
         id="book__design"
       >
         <Link to="/contact">Contact</Link>
+        
       </div>
+     
       <div className="flex justify-center mt-6 mb-16 mx-0 md:mx-[112px]">
         <img src="slack.svg" alt="Slack" className="w-6 mr-3 my-6" />
         <img src="github.svg" alt="Github" className="w-6 ml-3 my-6" />
